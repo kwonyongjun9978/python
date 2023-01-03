@@ -119,6 +119,7 @@ input_id = input('id:')
 id = 'jun'
 input_password = input('password:')
 password = '9498'
+'''
 if input_id == id:
     if input_password == password:
         print('Welcome')
@@ -126,3 +127,7 @@ if input_id == id:
         print('Wrong password')
 else:
     print('Wrong id') 
+'''
+
+if input_id == id and input_password == password:
+    print('Welcome')
