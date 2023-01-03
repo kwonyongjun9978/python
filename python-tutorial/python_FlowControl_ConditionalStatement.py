@@ -106,13 +106,16 @@ print(4)
 input_id = input('id : ')
 id1 = 'jun'
 id2 = 'yong'
+'''
 if input_id == id1:
     print('Welcome')
 elif input_id == id2:
     print('Welcome')
 else:
     print('Who?')
-
+'''
+if input_id=='jun' or input_id=='yong':
+    print('Welcome')
 
 #4.중첩조건문   
 input_id = input('id:')
@@ -128,6 +131,5 @@ if input_id == id:
 else:
     print('Wrong id') 
 '''
-
 if input_id == id and input_password == password:
     print('Welcome')
